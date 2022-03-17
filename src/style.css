@@ -1,0 +1,45 @@
+body{
+    box-sizing: border-box;
+    margin : 0 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 10px;
+}
+
+.card{
+    background-color:#DCDCDC;
+    border-radius: 10px;
+    padding : 2%;
+    width: 25%;
+}
+
+.card-header{
+    border-bottom: 2px solid rgb(35, 176, 241) ;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.card-button{
+    background-color: rgb(35, 176, 241);
+    border-radius: 5px;
+    border: none;
+    width : 6rem;
+    height: 2rem;
+}
+
+.card-body{
+    text-align: center;
+
+}
+h3{
+    font-size: 16px;
+}
